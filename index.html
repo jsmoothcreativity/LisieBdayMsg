@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==========SEO Data==========-->
+    <meta name="description" content="A fun and interactive quiz to test the knowledge of my appreciation for you">
+    <meta name="keywords" content="Love, game, friendship, multiple-choice, questions, friendship quiz, love quiz, online quiz, love firendship">
+
+     <!--==========Font Awesome CDN import to allow usage of icons==========-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+ 
+    <!--==========Favicon==========-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!--==========Link to Style CSS file==========-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lisie Knowledge</title>
+</head>
+<body>
+    <!--==========HEADER==========-->
+    <header id="header">
+
+        <!--==========Logo and Navigation Links==========-->
+        <nav>
+            <div id="logo">
+                <!-- <a href="index.html">Lisie's Birthday</a> -->
+                <a href="index.html">Happy Birthday</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--==========MAIN SECTION==========-->
+    <section id="home_area">
+        <div class="text">
+            <h2>Ready to play <i class="fas fa-question"></i></h2>
+        </div>
+
+        <!--==========Button to link the Quiz page==========-->
+        <div class="start_btn"><button>Start Quiz</button></div>
+
+        <!--==========Instruction Box==========-->
+        <div class="rules_box">
+            <div class="rules_title">
+                <span>Instructions</span>
+            </div>
+            <div class="rules_list">
+                <div class="rule">1. You will have only <span>20 seconds</span> per each question.</div>
+                <div class="rule">2. The seconds will start counting once you press Start Quiz</div>
+                <div class="rule">3. Once you select your answer, you can't reselect.</div>
+                <div class="rule">4. You can't select any option once time goes off.</div>
+                <div class="rule">5. You will get surpise at the end.</div>
+                <div class="rule">6. Answers are not saved i will not see your ansers</div>
+                <div class="rule">7. This is just a fun activity to evaluate my knowledge loll</div>
+            </div>
+
+            <!--==========Quit and Restart buttons==========-->
+            <div class="buttons">
+                <button class="quit">Exit Quiz</button>
+                <button class="restart">Continue</button>
+            </div>
+    </section>
+
+     <!--==========QUIZ BOX==========-->
+     <section>
+        <div class="quiz_box">
+
+            <div class="quiz_top">
+                <!--==========Timer==========-->
+                <div class="timer">
+                    <div class="time_text">Time Left</div>
+                    <div class="timer_seconds">20</div>
+                </div>
+
+                <!--==========Refresh and Leave icons==========-->
+                <div class="quiz_icons">
+                    <div class="refresh"><i class="fas fa-redo-alt"></i></div>
+                    <div class="leave"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="time_line"></div>
+            </div>
+            
+
+    <!--==========QUESTIONS AND OPTIONS LIST==========-->
+            <div class="quiz_questions">
+                <div class="questions_text">
+                   <!--<span>Which of these vegetables was the first to be grown in space?</span>-->
+                </div>
+                <div class="option_list">
+                </div>
+            </div>
+
+            <!--==========Next and Restart button-->
+            <div class="bottom">
+                <div class="total_question">
+                    <!--<span><p>2</p>of<p>5</p>Questions</span>-->
+                </div>
+                <button class="next_btn">Next</button>
+            </div>
+        </div>
+    </section>
+
+     <!--==========FEEDBACK BOX==========-->
+
+     <section>
+        <div class="feedback_box">
+            <div class="icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <div class="complete_text">You've completed the Quiz!</div>
+            <img src="assets/images/lisieday.JPG" alt="Lisie's birthday poster" width="500" height="600">
+            <div class="score_text">
+                <!--<span>and sorry, You got only <p>2</p> out of <p>5</p></span>-->
+            </div>
+
+            <!--==========Restart and quit quiz==========-->
+            <div class="buttons">
+                <button class="restart">Replay Quiz</button>
+                <button class="quit">Quit Quiz</button>
+            </div>
+        </div>
+    </section>
+    
+    <!--==========Link to JavaScript file==========-->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/header.js"></script>
+</body>
+</html>

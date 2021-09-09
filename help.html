@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==========SEO Data==========-->
+    <meta name="description" content="A fun and interactive quiz to test the knowledge of vegetables lovers">
+    <meta name="keywords" content="quiz, game, vegetables, multiple-choice, questions, vegetables quiz, online quiz, love vegetables">
+
+     <!--==========Font Awesome CDN import to allow usage of icons==========-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+ 
+
+    <!--==========Link to Style CSS file==========-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Love Vegetables</title>
+</head>
+<body>
+    <!--==========HEADER==========-->
+    <header id="header">
+   
+       <!--==========Logo and Navigation Links==========-->
+       <nav>
+        <div id="logo">
+            <a href="index.html">Love Vegetables</a>
+        </div>
+        <div id="openMenu"><i class="fa fa-bars"></i></div>
+        <ul id="menu">
+            <li>
+                <a href="index.html">HomeQuiz</a>
+            </li>
+            <li>
+                <a href="help.html" class="active">Help</a>
+            </li>
+         </ul>
+    </nav>
+    </header>
+
+    <section id="help_area">
+        <div class="help_box">
+
+            <!--==========Need more help division==========-->
+            <div>
+                <h2>Need more help <i class="fas fa-question"></i></h2>
+                <br>
+                <p>Do you have further questions? Contact us!</p>
+            </div>
+            <br>
+
+            <!--==========Form==========-->
+            <div>
+                <form action="message.html" name="contact-form">
+
+                    <!--==========Input==========-->
+                    <div>
+                        <label for="fname">Full name:</label>
+                        <input type="text" id="fname" name="fullname" placeholder="Jim Smith" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="fullname" placeholder="jim@example.com" required>
+                    </div>
+                    <br>
+
+                    <!--==========Textarea==========-->
+                    <div>
+                        <textarea name="question" id="text" cols="50" rows="15" placeholder="Type your message here..." required></textarea>
+                    </div>
+
+                    <!--==========Send and Clear buttons-->
+                    <div>
+                        <input type="submit" name="clear" class="clear_button" value="Clear">
+                        <input type="submit" name="send" class="send_button" value="Send">
+                        
+                    </div>
+                </div>
+                </form>
+            </div>
+    </section>
+
+    <!--==========FOOTER==========-->
+    <footer>
+        
+        <!--==========Social media Links==========-->
+        <div id="social_media">
+            <ul>
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" title="facebook"
+                    aria-label="Visit our Facebook page (opens in the new tab">
+                    <i class="fab fa-facebook-square"></i></a>
+                </li> 
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" title="instagram"
+                    aria-label="Visit our Instagram page (opens in the new tab">
+                    <i class="fab fa-instagram-square"></i></a>
+                </li> 
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener" title="youtube"
+                    aria-label="Visit our YouTube page (opens in the new tab">
+                    <i class="fab fa-youtube-square"></i></a>
+                </li> 
+            </ul>
+        </div>
+    </footer>
+    
+    <!--==========Link to JavaScript file==========-->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/header.js"></script>
+</body>
+</html>
