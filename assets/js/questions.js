@@ -56,63 +56,61 @@ let questions = [
             "Be Patient",
             "Be Motivated"
         ]
-    }
-    /*,
+    },
     {
         numb: 6,
-        question: 'Which of the following vegetables has an aniseed flavour?',
-        answer: "Fennel",
+        question: 'How many ministry i oversee at church?',
+        answer: "2",
         options: [
-            "Asparagus",
-            "Pak Choi",
-            "Fennel",
-            "Garlic"
+            "0",
+            "1",
+            "2",
+            "3"
         ]
     },
     {
         numb: 7,
-        question: 'Which of the following vegetables has an aniseed flavour?',
-        answer: "Fennel",
+        question: 'What is my fav color?',
+        answer: "Red",
         options: [
-            "Asparagus",
-            "Pak Choi",
-            "Fennel",
-            "Garlic"
+            "Red",
+            "Green",
+            "BLue",
+            "Yellow"
         ]
     },
     {
         numb: 8,
-        question: 'Which of the following vegetables has an aniseed flavour?',
-        answer: "Fennel",
+        question: 'Which city i am from?',
+        answer: "Cayes",
         options: [
-            "Asparagus",
-            "Pak Choi",
-            "Fennel",
-            "Garlic"
+            "Cayes",
+            "Aquin",
+            "Jeremy",
+            "Jacmel"
         ]
     },
     {
         numb: 9,
-        question: 'Which of the following vegetables has an aniseed flavour?',
-        answer: "Fennel",
+        question: 'What was the first time I messaged Lise? Dont look in your IG timeline loll',
+        answer: "February 11",
         options: [
-            "Asparagus",
-            "Pak Choi",
-            "Fennel",
-            "Garlic"
+            "February 11",
+            "May 11",
+            "January 11",
+            "February 14"
         ]
     },
     {
         numb: 10,
-        question: 'Which of the following vegetables has an aniseed flavour?',
-        answer: "Fennel",
+        question: 'What is your favorite color?',
+        answer: "Pink",
         options: [
-            "Asparagus",
-            "Pak Choi",
-            "Fennel",
-            "Garlic"
+            "Blue",
+            "Red",
+            "Pink",
+            "turquoise"
         ]
-    }*/
-    ,
+    },
 ]
 
