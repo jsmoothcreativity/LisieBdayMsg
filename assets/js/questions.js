@@ -52,11 +52,12 @@ let questions = [
         answer: "Be Patient",
         options: [
             "Be a Servant of God",
-            "Dreans cone true",
+            "Dreans come true",
             "Be Patient",
             "Be Motivated"
         ]
-    },
+    }
+    /*,
     {
         numb: 6,
         question: 'Which of the following vegetables has an aniseed flavour?',
@@ -111,6 +112,7 @@ let questions = [
             "Fennel",
             "Garlic"
         ]
-    },
+    }*/
+    ,
 ]
 
